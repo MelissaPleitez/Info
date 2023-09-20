@@ -23,15 +23,24 @@ Justification for the Model: The definition of the Active Record Models, Migrati
 
 ## Diagrams
 
-1. Entity-Relationship Diagram (ERD)
+## Entity-Relationship Diagram (ERD)
 
 Description: We have the following tables: USERS, TWEETS, FOLLOWERS, LIKES, BOOKMARKS and REPLIES.
 Your relationships:
-USERS and TWEETS: They have a One-to-many relationship, since a user can have many tweets, and many tweets can belong to one user.
-FOLLOWERS and USERS: They have a One-to-many relationship too, through the IDs: follower_id and followee_id, we can say that a user can have many followers and many followers can follow one user
+USERS and TWEETS: They have a One-to-many relationship, since an user can have many tweets, and many tweets can belong to one user.
+FOLLOWERS and USERS: They have a One-to-many relationship too, through the IDs: follower_id and followee_id, we can say that a user can have many followers and many followers can follow one user and one user can followe many users.
+LIKES, USERS and TWEETS: The same with this association, an user can like many tweets and many likes can be from one user, the same with the tweets table.
+BOOKMARKS, USERS and TWEETS: They have an One-to-many relationship too, since an user can bookmark many tweets and many bookmarks can be from one user, the same with the tweets table.
+REPLIES, USERS and TWEETS: They have an One-to-many relationship too, since an user can reply many tweets and many replies can be from one user, the same with the tweets table.
+HASHTAGS, TWEETS AND JOIN_TABLE: Hashtags and Tweets have a Many-to-many relationship, for that reason we create a JOIN TABLE or a PIVOT TABLE, since this table summarizing and organizing large amounts of data from the other two.
 
 Key Entities: [List the main entities in the ERD]
-2. System Architecture Diagram
-Purpose: [Explain the purpose of the system architecture diagram]
+
+
+## System Architecture Diagram
+
+Purpose: Describes interrelated t
 Components: [List the key components/modules depicted in the diagram]
 Interactions: [Describe the interactions between components]
+
+
