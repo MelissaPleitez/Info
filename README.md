@@ -45,9 +45,12 @@ Key Entities: [List the main entities in the ERD]
 
 ## System Architecture Diagram
 
-Purpose: Describes interrelated t
+Purpose: Normalizes the tables and associations to perform business processes.
+
 Components: [List the key components/modules depicted in the diagram]
+
 Interactions: [Describe the interactions between components]
+
 
 ![Xtwitter_Project](https://github.com/MelissaPleitez/Info/assets/92410851/97807db1-8c7b-4e72-9271-329eebf44655)
 
