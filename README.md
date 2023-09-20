@@ -8,4 +8,15 @@ Model Purpose: Represent things a business needs to remember in order to perform
 Creation Date: 09/19/2023
 Author: Melissa Pleitez
 
+## Context
 
+Problem Context: Adding support for the following features:
+* Tweet Reply
+* Bookmark
+* Likes
+* Quotes
+* Retweets
+* Followers
+Justification for the Model: The definition of the Active Record Models, Migrations, Associations to create a Twitter database model.
+
+# Model Architecture
