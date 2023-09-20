@@ -47,7 +47,15 @@ Key Entities: [List the main entities in the ERD]
 
 Purpose: Normalizes the tables and associations to perform business processes.
 
-Components: [List the key components/modules depicted in the diagram]
+Components:
+* Users
+* Tweets
+* Follows
+* Likes
+* Bookmarks
+* Replies
+* Hashtags
+* Hashtags_tweets (Pivot Table).
 
 Interactions: [Describe the interactions between components]
 
